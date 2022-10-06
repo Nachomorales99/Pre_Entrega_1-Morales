@@ -1,8 +1,8 @@
-import React from 'react';
-import Form from './Navbar_components/Form';
-import Dropdown from './Navbar_components/Dropdown';
-import Secciones from './Navbar_components/Secciones';
-import CartWidget from './Navbar_components/CartWidget';
+import { Link } from 'react-router-dom';
+import Form from '../layouts/Form';
+import Dropdown from '../layouts/Dropdown';
+import Secciones from '../layouts/Secciones';
+import CartWidget from '../layouts/CartWidget';
 
 const Navbar = () => {
     const listDropwon = ["Remeras", "Buzos", "Bermudas", "Ver todo"]
@@ -11,19 +11,23 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-black">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#"><img className="navbar-logo" src="https://res.cloudinary.com/nacho-morales/image/upload/v1663890421/multimedia/Deer_logo_rbij52.jpg" alt="" /></a>
-                    <a className="navbar-brand" href="#">DEER</a>
+                    <Link className="navbar-brand" to="/home"><img className="navbar-logo" src="https://res.cloudinary.com/nacho-morales/image/upload/v1663890421/multimedia/Deer_logo_rbij52.jpg" alt="" /></Link>
+                    <Link className="navbar-brand" to="/home">DEER</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="navbar-collapse collapse" id="navbarColor02" style={{}}>
                         <ul className="navbar-nav me-auto">
                             <Dropdown lista={listDropwon} />
                             <Secciones />
                         </ul>
-                        <Form busqueda="Buscar Producto" />
-                        <CartWidget />
                     </div>
+                    <ul className="navbar-nav me-auto">
+                        <li className="nav-link">
+                            <Link className="nav-link" to="/carrito">Carrito</Link>
+                            <CartWidget />
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </>

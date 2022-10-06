@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "nombre": "Remera Basic",
+    "tipo": "remera",
+    "desc": "Primer diseño de Black Owl. Basico, simple y con mucha onda",
+    "precio": 2500,
+    "talle": "L",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926497/multimedia/Basic_ilaokz.jpg"
+},
+
+{
+    "id": 2,
+    "nombre": "Remera Tiger",
+    "tipo": "remera",
+    "desc": "Saca tu tigre interior. Black Owl... or Tiger Whatever",
+    "precio": 2500,
+    "talle": "L",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926511/multimedia/Tiger_m0krqg.jpg"
+},
+
+{
+    "id": 3,
+    "nombre": "Remera BIB",
+    "tipo": "remera",
+    "desc": "El negro no pasa de moda, por eso es que decimos BLACK IS BETTER",
+    "precio": 2500,
+    "talle": "L",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926493/multimedia/BIB_iew2o6.jpg"
+},
+
+{
+    "id": 4,
+    "nombre": "Remera Chill",
+    "tipo": "remera",
+    "desc": "Hay momentos que es mejor relajarse y estar chill",
+    "precio": 2500,
+    "talle": "L",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926498/multimedia/Chill_lrmqgu.jpg"
+},
+
+{
+    "id": 5,
+    "nombre": "Remera Forever",
+    "tipo": "remera",
+    "desc": "Llevamos el negro como una parte de nosotros por siempre",
+    "precio": 2500,
+    "talle": "L",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926507/multimedia/Forever_verde_khr1fh.jpg"
+},
+
+{
+    "id": 6,
+    "nombre": "Remera Type",
+    "tipo": "remera",
+    "desc": "Corto, conciso y directo. Decir mucho con pocas palabras",
+    "precio": 2500,
+    "talle": "L",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926512/multimedia/Type_n9n61s.jpg"
+},
+
+{
+    "id": 7,
+    "nombre": "Buzo Owl",
+    "tipo": "buzo",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": 4500,
+    "talle": "M",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446948/multimedia/Buzo_Owl_xzhiav.jpg"
+},
+
+{
+    "id": 8,
+    "nombre": "Buzo MAD",
+    "tipo": "buzo",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": 3500,
+    "talle": "M",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446956/multimedia/Buzo_MAD_gdnqgj.jpg"
+},
+
+{
+    "id": 9,
+    "nombre": "Buzo Future",
+    "tipo": "buzo",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": 4500,
+    "talle": "M",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446948/multimedia/Buzo_Future_r3bhsn.jpg"
+},
+
+{
+    "id": 10,
+    "nombre": "Jogger Beige",
+    "tipo": "jogger",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": 4000,
+    "talle": "46",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446959/multimedia/Jogger_Beige_b9jkyv.jpg"
+},
+
+{
+    "id": 11,
+    "nombre": "Jogger Verde",
+    "tipo": "jogger",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": 4000,
+    "talle": "42",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658447579/multimedia/jogger_verde_mktgkp.jpg"
+},
+
+
+{
+    "id": 12,
+    "nombre": "Jogger Negro",
+    "tipo": "jogger",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "precio": 4000,
+    "talle": "44",
+    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446960/multimedia/Jogger_Negro_o6raag.jpg"
+}
+]
