@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import DetalleProducto from './DetalleProducto';
 import { useParams } from 'react-router-dom';
 import { consultarStock } from '../../utils/generadorProductos';
-const Producto = () => {
+const ItemDetailContainer = () => {
 
     const [producto, setproducto] = useState([]);
     const { id } = useParams()
@@ -23,4 +23,4 @@ const Producto = () => {
         );
     }
 
-export default Producto;
+export default ItemDetailContainer;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { consultarStock } from '../../utils/generadorProductos'
 import { Link } from 'react-router-dom';
-const Home = () => {
+const ItemListContainer = () => {
     const [products, setproducts] = useState([]);
     useEffect(() => {
         consultarStock('./json/stock.json').then(products => {
@@ -21,7 +21,7 @@ const Home = () => {
                                     <h5 className="card-tittle">{product.nombre}</h5>
                                     <h6 className="card-subtitle mb-2">${product.precio}</h6>
                                     <p className="card-text">{product.desc}</p>
-                                    <button className='btn btn-black'><Link className='nav-link' to={`/producto/${product.id}`}>Ver Producto</Link></button>
+                                    <button className='btn btn-black'><Link className='nav-link' to={`/item/${product.id}`}>Ver Producto</Link></button>
                                 </div>
                             </div>
                         </div>)
@@ -43,4 +43,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default ItemListContainer;
