@@ -3,21 +3,24 @@ import React from 'react';
 const DetalleProducto = ({producto}) => {
     return (
         <>
-            <div className="row g-0">
-                <div className="col-md-4">
-                    <img src={producto.img} className="img-fluid rounded-start" alt="..." />
-                </div>
-                <div className="col-md-8">
-                    <div className="card-body">
-                        <h5 className="card-title">{producto.nombre}</h5>
-                        <p className="card-text">{producto.desc}</p>
-                        <p className="card-text">${producto.precio}</p>
-                        <button className='btn btn-dark'>Comprar</button>
-                    </div>
-                </div>
-            </div>
+            <div className="col-lg-4 mb-3">
+                            <div className="card" key={producto.id}>
+                                <div className="img-container">
+                                    <img src={producto.img}
+                                        alt={producto.nombre} className="image card-img-top"/>
+                                </div>
+                                <div className="card-body">
+                                    <h5 className="card-tittle">{producto.nombre}</h5>
+                                    <h6 className="card-subtitle mb-2">${producto.precio}</h6>
+                                    <p className="card-text">{producto.desc}</p>
+                                    <button className='btn btn-dark'>Comprar</button>
+                                </div>
+                            </div>
+                        </div>
         </>
     );
 }
 
 export default DetalleProducto;
+
+

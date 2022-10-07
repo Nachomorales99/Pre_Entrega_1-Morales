@@ -8,7 +8,7 @@ import Carrito from './content/Carrito'
 import Home from './content/Home' 
 import Producto from './content/Producto'
 import Mayorista from './content/Mayorista'
-import Categoria from './content/Categoria';
+import Category from './content/Category';
 
 const App = () => {
     return (
@@ -18,14 +18,13 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home/>} />
                     <Route path="/producto/:id" element={<Producto/>} />
-                    <Route path="/categoria/:tipo" element={<Categoria/>} />
+                    <Route path="/category/:tipo" element={<Category/>} />
                     <Route path="/mayorista" element={<Mayorista/>} />
                     <Route path="/about" element={<About/>} />
                     <Route path="/contacto" element={<Contacto/>} /> 
                     <Route path="/carrito" element={<Carrito/>} />
 
                 </Routes>
-                <Footer/>
             </BrowserRouter>
         </>
     );

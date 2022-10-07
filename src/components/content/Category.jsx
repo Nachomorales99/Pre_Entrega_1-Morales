@@ -1,15 +1,15 @@
 import {useState, useEffect} from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { consultarStock } from '../../utils/generadorProductos';
-const Categoria = () => {
+const Category = () => {
 
     const [productos, setproductos] = useState([]);
     const {tipo} = useParams()
 useEffect(() => {
     consultarStock('../json/stock.json').then(productos => {
-        const productosCategoria = productos.filter(producto => producto.tipo === tipo)
-        console.log(productosCategoria)
-        const cardProducto = productosCategoria.map(producto =>
+        const productosCategory = productos.filter(producto => producto.tipo === tipo)
+        console.log(productosCategory)
+        const cardProducto = productosCategory.map(producto =>
             <div className="col-lg-4 mb-3">
                         <div className="card" key={producto.id}>
                             <div className="img-container">
@@ -40,4 +40,4 @@ useEffect(() => {
     );
 }
 
-export default Categoria;
+export default Category;
