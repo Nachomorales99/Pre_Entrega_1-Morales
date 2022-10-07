@@ -24,7 +24,7 @@ useEffect(() => {
                                 <h5 className="card-tittle">{producto.nombre}</h5>
                                 <h6 className="card-subtitle mb-2">${producto.precio}</h6>
                                 <p className="card-text">{producto.desc}</p>
-                                <button className='btn btn-black'><Link className='nav-link' to={`/producto/${producto.id}`}>Ver Producto</Link></button>
+                                <button className='btn btn-black'><Link className='nav-link' to={`/item/${producto.id}`}>Ver Producto</Link></button>
                             </div>
                         </div>
                     </div>)
