@@ -3,8 +3,8 @@ import Dropdown from '../layouts/Dropdown';
 import Secciones from '../layouts/Secciones'
 const Navbar = () => {
     const listDropwon = ["Remeras", "Buzos", "Joggers", "Ver todo"]
+    
     return (
-
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-black">
                 <div className="container-fluid">

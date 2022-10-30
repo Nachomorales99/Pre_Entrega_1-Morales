@@ -8,18 +8,19 @@ const CartProvider = (props) => {
 
     //Agregar producto
 
-    const addProduct = (prod, cant) => {
+    const addProduct = (producto, cantidad) => {
         const aux = cart;
-        let index = aux.findIndex(producto => producto.id == prod.id);
+        let index = aux.findIndex(producto => producto.id == producto[0]);
 
         if (index != -1) {
-            aux[index].cantidad = cant
+            aux[index].cantidad = cantidad
         } else {
-            const prodCart = { ...prod, cantidad: cant }
+            const id = producto[0]
+            const x = producto[1]
+            const prodCart = {id, ...x, cantidad: cantidad}
             aux.push(prodCart)
         }
         setcart(structuredClone(aux))
-        console.log(cart)
     }
 
     //Quitar producto
@@ -30,12 +31,11 @@ const CartProvider = (props) => {
 
         aux.splice(index, 1)
         setcart(structuredClone(aux))
-        console.log(cart)
     }
 
     return (
         <>
-            <CartContext.Provider value={{ cart, addProduct, removeProd }}>
+            <CartContext.Provider value={{cart, addProduct, removeProd}}>
                 {props.children}
             </CartContext.Provider>
         </>

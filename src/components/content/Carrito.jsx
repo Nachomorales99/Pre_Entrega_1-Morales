@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { CartContext } from '../../context/CartContext';
+import React, {useState, useEffect, useContext} from 'react';
+import {CartContext} from '../../context/CartContext';
 
 const Carrito = () => {
-    const { cart, addProduct, removeProd } = useContext(CartContext)
+    const {cart, addProduct, removeProd} = useContext(CartContext)
     const [localCart, setlocalCart] = useState([]);
 
     useEffect(() => {
@@ -19,9 +19,9 @@ const Carrito = () => {
                         <h5 className="card-tittle">{producto.nombre}</h5>
                         <h6 className="card-subtitle mb-2">Precio: ${producto.precio}</h6>
 
-                        <p className="card-text">Cantidad: {producto.cant}</p>
+                        <p className="card-text">Cantidad: {producto.cantidad}</p>
 
-                        <p className="card-text">Precio Total: {producto.precio * producto.cant}</p>
+                        <p className="card-text">Precio Total: ${producto.precio * producto.cantidad}</p>
 
                         <button className='btn btn-dark' onClick={() => removeProd(producto)}>Eliminar</button>
                     </div>
