@@ -5,7 +5,8 @@
     "desc": "Primer diseño de Black Owl. Basico, simple y con mucha onda",
     "precio": 2500,
     "talle": "L",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926497/multimedia/Basic_ilaokz.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FBasic.jpg?alt=media&token=01b76c2e-7ec0-484c-8983-d5f3cf9ec8a7",
+    "stock": 15
 },
 
 {
@@ -15,7 +16,8 @@
     "desc": "Saca tu tigre interior. Black Owl... or Tiger Whatever",
     "precio": 2500,
     "talle": "L",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926511/multimedia/Tiger_m0krqg.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FTiger.jpg?alt=media&token=222fe033-a172-4387-83f2-a4977dd03dca",
+    "stock": 15
 },
 
 {
@@ -25,7 +27,8 @@
     "desc": "El negro no pasa de moda, por eso es que decimos BLACK IS BETTER",
     "precio": 2500,
     "talle": "L",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926493/multimedia/BIB_iew2o6.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FBIB.jpg?alt=media&token=093ddc8d-484e-43a7-b1fd-fb03a3ea372b",
+    "stock": 15
 },
 
 {
@@ -35,7 +38,8 @@
     "desc": "Hay momentos que es mejor relajarse y estar chill",
     "precio": 2500,
     "talle": "L",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926498/multimedia/Chill_lrmqgu.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FChill.jpg?alt=media&token=df301d00-941f-4068-ae29-435267065bca",
+    "stock": 15
 },
 
 {
@@ -45,7 +49,8 @@
     "desc": "Llevamos el negro como una parte de nosotros por siempre",
     "precio": 2500,
     "talle": "L",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926507/multimedia/Forever_verde_khr1fh.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FForever_verde.jpg?alt=media&token=9c86a264-3c3d-42a7-9fa2-d8166d136200",
+    "stock": 15
 },
 
 {
@@ -55,7 +60,8 @@
     "desc": "Corto, conciso y directo. Decir mucho con pocas palabras",
     "precio": 2500,
     "talle": "L",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1652926512/multimedia/Type_n9n61s.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FType.jpg?alt=media&token=139e5089-a92d-4dc2-a9a9-1ce4c60c55aa",
+    "stock": 15
 },
 
 {
@@ -65,7 +71,8 @@
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "precio": 4500,
     "talle": "M",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446948/multimedia/Buzo_Owl_xzhiav.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FBuzo_Owl.jpg?alt=media&token=3ba48a90-778b-4f61-8dc6-d70922a4fbb3",
+    "stock": 15
 },
 
 {
@@ -75,7 +82,8 @@
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "precio": 3500,
     "talle": "M",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446956/multimedia/Buzo_MAD_gdnqgj.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FBuzo_MAD.jpg?alt=media&token=5fa9bcc2-b036-4b08-b82b-ecb9839f3e2d",
+    "stock": 15
 },
 
 {
@@ -85,7 +93,8 @@
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "precio": 4500,
     "talle": "M",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446948/multimedia/Buzo_Future_r3bhsn.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FBuzo_Future.jpg?alt=media&token=4e5ed03e-0272-43ed-aac9-fdb037dc32b7",
+    "stock": 15
 },
 
 {
@@ -95,7 +104,8 @@
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "precio": 4000,
     "talle": "46",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446959/multimedia/Jogger_Beige_b9jkyv.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FJogger_Beige.jpg?alt=media&token=d97fe7b6-8071-40b2-a65f-d2de5a6ddd9b",
+    "stock": 15
 },
 
 {
@@ -105,7 +115,8 @@
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "precio": 4000,
     "talle": "42",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658447579/multimedia/jogger_verde_mktgkp.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2Fjogger_verde.jpg?alt=media&token=da5d927f-fabd-49cf-818a-4d66e6d07591",
+    "stock": 15
 },
 
 
@@ -116,6 +127,7 @@
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "precio": 4000,
     "talle": "44",
-    "img": "https://res.cloudinary.com/nacho-morales/image/upload/v1658446960/multimedia/Jogger_Negro_o6raag.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FJogger_Negro.jpg?alt=media&token=ea7ec9df-ece6-46dc-ac13-0c1e768570bc",
+    "stock": 15
 }
 ]

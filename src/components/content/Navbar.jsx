@@ -8,8 +8,8 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-black">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to={"/"}><img className="navbar-logo" src="https://res.cloudinary.com/nacho-morales/image/upload/v1663890421/multimedia/Deer_logo_rbij52.jpg" alt="" /></Link>
-                    <Link className="navbar-brand" to={"/"}>DEER</Link>
+                    <Link className="navbar-brand" to={"/"}><img className="navbar-logo" src="https://firebasestorage.googleapis.com/v0/b/blackowl-mdz.appspot.com/o/imagenes%2FLogo.jpg?alt=media&token=55a15520-a78a-4b35-a81c-e5e9c9c4eb1a" alt="" /></Link>
+                    <Link className="navbar-brand" to={"/"}>Black Owl</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

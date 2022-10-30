@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import DetalleProducto from './DetalleProducto';
 import { useParams } from 'react-router-dom';
-import { consultarStock } from '../../utils/generadorProductos';
 const ItemDetailContainer = () => {
 
     const [producto, setproducto] = useState([]);
-    const { id } = useParams()
+    const {id} = useParams()
     useEffect(() => {
-        consultarStock('../json/stock.json').then(productos => {
-            const producto1 = productos.find(productoArray => productoArray.id == id)
-            setproducto(producto1)
-        })
+        // consultarStock('../json/stock.json').then(productos => {
+        //     const producto1 = productos.find(productoArray => productoArray.id == id)
+        //     setproducto(producto1)
+        // })
 
         }, []);
 
