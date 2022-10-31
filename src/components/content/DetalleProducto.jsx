@@ -22,20 +22,17 @@ const DetalleProducto = ({ producto }) => {
             <div className="col-lg-4 mb-3">
                 <div className="card">
                     <div className="img-container">
-                        <img src={producto[1].img} alt="" className="image card-img-top"/>
+                        <img src={producto[1].img} alt="" className="image card-img-top" />
                     </div>
                     <div className="card-body">
                         <h5 className="card-tittle">{producto[1].nombre}</h5>
                         <h6 className="card-subtitle mb-2">${producto[1].precio}</h6>
                         <p className="card-text">{producto[1].desc}</p>
+                        <p className="card-text row">{cantidad}</p>
+                        <button className='btn btn-dark' onClick={() => cantProd("-")}>-</button>
+                        <button className='btn btn-dark' onClick={() => cantProd("+")}>+</button>
 
-                        <p className="card-text">{cantidad}</p>
-
-                        <button className='btn btn-light' onClick={() => cantProd("-")}>-</button>
-
-                        <button className='btn btn-light' onClick={() => cantProd("+")}>+</button>
-
-                        <button className='btn btn-dark' onClick={() => addProduct(producto, cantidad)}>Agregar al carrito</button>
+                        <button className='add-prod btn btn-dark' onClick={() => addProduct(producto, cantidad)}>Agregar al carrito</button> 
                     </div>
                 </div>
             </div>

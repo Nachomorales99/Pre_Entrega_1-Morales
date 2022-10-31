@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {useParams, Link} from 'react-router-dom';
 import {getProductos} from '../../utils/firebase';
+import Carrusel from '../layouts/Carrusel';
 
 const Category = () => {
 
@@ -8,7 +9,7 @@ const Category = () => {
     const {tipo} = useParams()
     useEffect(() => {
         getProductos().then(productos => {
-        const productosCategory = productos.filter(producto => producto.tipo == tipo) 
+        const productosCategory = productos.filter(producto => producto[1].tipo == tipo) 
 
         const cardProducto = productosCategory.map(producto =>
             <div className="col-lg-4 mb-3">
@@ -16,10 +17,6 @@ const Category = () => {
                     <div className="img-container">
                         <img src={producto[1].img}
                             alt={producto[1].nombre} className="image card-img-top" />
-                        <div className="overlay">
-                            <button className="btn btn-outline-secondary btn-sm"><i
-                                className="fas fa-shopping-cart mr-2">Agregar al carrito</i></button>
-                        </div>
                     </div>
                     <div className="card-body">
                         <h5 className="card-tittle">{producto[1].nombre}</h5>
@@ -35,9 +32,12 @@ const Category = () => {
 
 }, [tipo]);
 return (
+    <>
+    <Carrusel />
     <div className="row">
         {productos}
     </div>
+    </>
 );
 }
 

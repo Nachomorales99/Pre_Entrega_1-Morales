@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+Profesor Francisco Pugh, queria aprovechar este Readme para poder contarle como encare mi proyecto. 
+Con este curso de React doy por finalizado la parte FrontEnd de la carrera Full Stack de Coder House. 
+En primer lugar queria agradecerle por todo el tiempo, consejos y la dedicación que no brindaste durante la cursada.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Black OwL
 
-## Available Scripts
+Mi proyecto de React se llama Black Owl, es una tienda ropa estilo StreetWear. Es un mi emprendimiento personal y vengo tratandolo desde el curso de desarrollo web. 
 
-In the project directory, you can run:
+En el mismo cargue una parte del stock real para generar las cards y lograr una variedad de los mismos para las categorias.
 
-### `npm start`
+En ItemListContainer, se encuentran todos los productos disponibles, ademas de otros componentes que dan diseño a la pagina (Carrusel, Footer). 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En ItemDetailContainer, se encontrara el contener de los productos de manera individual.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+En DetalleProducto, se vera reflejada la descripcion del producto con sus botones para elegir la cantidad y un boton para añadirlo al carrito. 
 
-### `npm test`
+En Category, se podra acceder a las categorias de los productos (Remeras, Joggers, Buzos) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+En Carrito, veremos todos los productos agregados y un boton de finalizar compra que no lleva a un formulario para cargar los datos del cliente.
 
-### `npm run build`
+Con el ultimo boton se limpiara el formulario y se dara por finlizada la compra.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Utilice, unos mensajes de añadir al carrito y eliminar producto con "React-Toastify", ya que no son invasivas y generan ayuda en la experiencia de la pagina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ACLARACIONES
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Profesor, intente cumplir con todas los puntos que se pedian en las rubricas y fui haciendo Checklist de lo que cumpli y lo que no. Pero debido a unos problemas que tuve con mi computadora y tuve que  mandarla a arreglar, me retrase mucho con el proyecto y hubieron muchas cosas que me resultaron dificiles de lograr y otras, necesite ayuda para hacerlas. Va a encontrar que no cumpli con la generacion de la orden de compra, fue lo que realmente me llevo mucho tiempo y no logre realizarlo bien. Ademas, del Contador de productos, ya que por la misma falta de tiempo no logre. 
 
-### `npm run eject`
+Espero que pueda ayudarme con una devolucion que me ayude a lograr estos objetivos. De todos modos seguire intentando lograrlo para sumarlo al proyecto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Disculpe por no lograr todos los objetivos. Espero su correccion. Desde ya muchas gracias. Juan Ignacio Morales

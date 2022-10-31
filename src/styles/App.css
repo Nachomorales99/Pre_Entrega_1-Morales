@@ -3,13 +3,24 @@
 }
 
 .navbar-logo {
-    width: 3rem;
-    height: 5rem;
+    width: 65px;
+    height: 65px;
 }
 
 .carrito {
     color: white;
 }
+
+body .carru {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    body .carru img {
+        height: 400px;
+    }
+}
+
 
 .card {
     margin: 1.2rem;
@@ -64,4 +75,261 @@
 
 .card .card-text {
     font-weight: 100;
+}
+
+.titulo5 {
+    color: white;
+}
+
+#equipo {
+    margin: 70px;
+    width: 100%;
+}
+
+#equipo .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#equipo .team img {
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px #333;
+}
+
+#equipo .team img:hover {
+    filter: saturate(180%);
+}
+
+#equipo .nombres {
+    display: grid;
+}
+
+#equipo .nombres .nombre,
+#equipo .nombres .funcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 2rem;
+}
+
+#equipo .nombres .funcion {
+    font-size: 1.53846rem;
+}
+
+#equipo .texto {
+    background: #02011c;
+    background: linear-gradient(90deg, #02011c 22%, #021d22 57%, #585858 91%);
+    border-radius: 5%;
+}
+
+#equipo .texto p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    #equipo {
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .team img {
+        height: 300px;
+        width: 30px;
+        margin: 1.2rem;
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 1rem 0px;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 5rem;
+}
+
+footer .footer-title {
+    padding: 5px;
+    margin-bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    font-size: 2rem;
+}
+
+footer .redes-sociales .red-twitter {
+    color: #00acee;
+}
+
+footer .redes-sociales .red-whatsapp {
+    color: #00bb2d;
+}
+
+footer .redes-sociales .red-facebook {
+    color: #3b5998;
+}
+
+footer .redes-sociales .red-instagram {
+    color: #dd2a7b;
+}
+
+footer .redes-sociales .red-mail {
+    color: #ea4335;
+}
+
+footer .redes-sociales .redes-soc:hover {
+    transition: 0.75s;
+    font-size: 2.2rem;
+    transform: scale(1.1);
+}
+
+footer .colum-sitemap {
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+
+footer .colum-sitemap .sitemap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.2rem 0.2rem;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .colum-sitemap .sitemap:hover {
+    transition: 0.75s;
+    color: #1c1c7c;
+    font-size: 1.3rem;
+    transform: scale(1);
+}
+
+footer .footer-logo {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .pie-pagina {
+    padding: 0;
+    margin: 0;
+}
+
+footer .pie-pagina #pie {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.titulo4 {
+    color: white;
+}
+
+#nosotros {
+    width: 100%;
+    margin: 70px;
+}
+
+#nosotros #carru_nosotros {
+    border-radius: 5%;
+}
+
+#nosotros .parrafo,
+#nosotros #equipo .texto,
+#equipo #nosotros .texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nosotros .parrafo p,
+#nosotros #equipo .texto p,
+#equipo #nosotros .texto p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Times New Roman";
+    padding: 20px;
+    background: #066b16;
+    background: radial-gradient(circle, #066b16 24%, #1b471c 47%, #047741 86%);
+    border-radius: 3%;
+    color: white;
+}
+
+@media (max-width: 767px) {
+
+    .parrafo,
+    #equipo .texto {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #nosotros {
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+    #nosotros p {
+        margin: 2rem;
+    }
+}
+
+.compra-final {
+    background-color: white;
+    width: 100%;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+} 
+
+.error-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6rem;
+}  
+
+.no-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}  
+
+.ir-home{
+    margin-left: 1rem;
 }

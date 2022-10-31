@@ -3,12 +3,12 @@ import '../styles/App.css'
 import Navbar from './content/Navbar';
 import Footer from './content/Footer'
 import About from './content/About'
-import Contacto from './content/Contacto'
+import Equipo from './content/Equipo'
 import Carrito from './content/Carrito'
 import ItemListContainer from './content/ItemListContainer' 
 import ItemDetailContainer from './content/ItemDetailContainer'
-import Mayorista from './content/Mayorista'
 import Category from './content/Category';
+import Compra from './content/Compra';
 
 const App = () => {
     return (
@@ -19,11 +19,11 @@ const App = () => {
                     <Route path="/" element={<ItemListContainer/>} />
                     <Route path="/item/:id" element={<ItemDetailContainer/>} />
                     <Route path="/category/:tipo" element={<Category/>} />
-                    <Route path="/mayorista" element={<Mayorista/>} />
                     <Route path="/about" element={<About/>} />
-                    <Route path="/contacto" element={<Contacto/>} /> 
+                    <Route path="/equipo" element={<Equipo/>} /> 
                     <Route path="/carrito" element={<Carrito/>} />
-                    <Route path="*" element={<h1>Error 404</h1>}/>
+                    <Route path="/compra" element={<Compra/>}/>
+                    <Route path="*" element={<h1 className='error-404'>Error 404</h1>}/>
                 </Routes>
                 <Footer/>
             </BrowserRouter>
